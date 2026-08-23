@@ -1,2 +1,2 @@
-Weather_api='YOUR_API'
+Weather_api='YOUR_API_KEY'
 
