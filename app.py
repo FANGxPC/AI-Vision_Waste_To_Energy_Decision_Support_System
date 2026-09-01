@@ -7,7 +7,6 @@ import cv2
 import numpy as np
 import plotly.express as px
 
-# Custom Imports
 from src.vision_engine import get_waste_composition
 from src.weather_api import get_weather_context
 from src.energy_math import calculate_energy_potential
@@ -53,7 +52,6 @@ with st.sidebar:
     st.caption("v2.1 | Model: YOLOv11n | Region: Vellore")
 
 # --- HEADER: WEATHER CONTEXT ---
-# Using your no-argument call
 weather = get_weather_context() 
 
 st.markdown("### 🌤️ Environmental Context (Vellore)")
